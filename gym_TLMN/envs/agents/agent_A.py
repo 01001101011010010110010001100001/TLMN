@@ -53,6 +53,7 @@ class Agent(Player):
                 y = json.dumps(model)
                 with open("/content/TLMN/gym_TLMN/envs/agents/model.json", "w") as outfile:
                     outfile.write(y)
+        print(dict_input["State"])
  
             # print('Dòng lệnh trên và dòng lệnh này được in ra từ agent')
             # print(Style.RESET_ALL)
